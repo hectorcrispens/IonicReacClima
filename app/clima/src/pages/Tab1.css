@@ -1,0 +1,50 @@
+
+.content-fit{
+  background-color: aquamarine;
+}
+ion-content.background{
+  --background: url(/assets/arb2.jpg) 0 0/100% 100% no-repeat;
+  --padding-top: 85%
+}
+
+ion-icon.sun {
+  font-size: 44px;
+  color: white;
+}
+ion-icon.ext {
+  font-size: 65px;
+  color: white;
+}
+ion-item.divider{
+  --background:transparent;
+  --color:white;
+  --border-color: white;
+}
+ion-toolbar.bar{
+  --background:red;
+  --opacity:0;
+}
+ion-title{
+  --color:white;
+}
+ion-text.temp{
+  font-size: 99px;
+  color: white;
+}
+ion-text.escale{
+  font-size: 50px;
+  color: white;
+}
+.max{
+  color:yellow;
+}
+h2{
+  color: aliceblue;
+  
+}
+h3{
+  color: aliceblue;
+}
+h4{
+  color:white;
+}
