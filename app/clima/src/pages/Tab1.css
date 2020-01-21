@@ -3,10 +3,45 @@
   background-color: aquamarine;
 }
 ion-content.background{
-  --background: url(/assets/arb2.jpg) 0 0/100% 100% no-repeat;
-  --padding-top: 85%
+ 
+  --padding-top: 85%;
+  --background:url('/assets/arb2.jpg') 0 0/100% 100% no-repeat;
 }
-
+ion-content.sunny{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/sunny.jpg') 0 0/100% 100% no-repeat;
+}
+ion-content.partlySunny{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/partlySunny.jpg') 0 0/100% 100% no-repeat;
+}
+ion-content.cloudy{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/cloudy.jpg') 0 0/100% 100% no-repeat;
+}
+ion-content.cloudyNight{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/cloudyNight.jpg') 0 0/100% 100% no-repeat;
+}
+ion-content.umbrella{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/umbrella.jpg') 0 0/100% 100% no-repeat;
+}
+ion-content.rainy{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/rainy.jpg') 0 0/100% 100% no-repeat;
+}
+ion-content.thunderstorm{
+ 
+  --padding-top: 85%;
+  --background:url('/assets/thunderstorm.jpg') 0 0/100% 100% no-repeat;
+}
 ion-icon.sun {
   font-size: 44px;
   color: white;

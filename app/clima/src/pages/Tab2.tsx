@@ -1,29 +1,9 @@
 import {
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardSubtitle,
-  IonCardTitle,
   IonContent,
-  IonHeader,
-  IonIcon,
-  IonItem,
-  IonLabel,
-  IonList,
-  IonListHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
-  IonGrid,
-  IonRow,
-  IonText,
-  IonCol,
-  IonItemDivider,
-  IonButton
+  IonPage
+ 
 } from '@ionic/react';
-import { sunny, umbrella, rainy, thunderstorm, cloud, call } from 'ionicons/icons';
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const Tab2: React.FC = () => {
   const API_KEY = '7cf1d03c7aab53b9a719411f7a699cef';
